@@ -163,21 +163,6 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen relative ">
-      {/* <div
-        className="absolute z-10
-    w-[120px] right-[10px] top-[50px]
-    md:w-[180px] md:right-[30px] md:top-[30px]
-    lg:w-[220px] lg:right-[50px] lg:top-[40px]
-    xl:w-[300px] xl:right-[100px] xl:top-[50px]
-    2xl:right-[150px]"
-      >
-        <img
-          src="/logo/money-travel.png"
-          alt="Travel Money"
-          className="w-full h-auto"
-        />
-      </div> */}
-
       {/* Image personal-car */}
       <div
         className="absolute z-10
@@ -188,7 +173,7 @@ export default function HomePage() {
     "
       >
         <img
-          src="/logo/personal_rmbg.png"
+          src="logo/personal_rmbg.png"
           alt="Personal Car"
           className="w-full h-auto mt-4 "
         />
@@ -203,7 +188,7 @@ export default function HomePage() {
               {/* Logo - Ajusté indépendamment */}
               <div className="flex-shrink-0 flex items-center justify-center">
                 <img
-                  src="/logo/logo-rmbg.png"
+                  src="logo/logo-rmbg.png"
                   alt="Logo Elite Travel"
                   className="h-16 w-auto object-contain"
                 />

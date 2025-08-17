@@ -3,6 +3,7 @@ module.exports = {
   content: [
     "./index.html",
     "./src/**/*.{js,jsx,ts,tsx}",
+    "./public/**/*.html",
     // Ajoutez ces chemins si vous utilisez des composants dans node_modules
     "./node_modules/flowbite/**/*.js", // Exemple pour flowbite
   ],
